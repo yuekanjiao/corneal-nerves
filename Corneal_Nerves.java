@@ -1392,7 +1392,7 @@ public class Corneal_Nerves implements PlugIn, ActionListener {
         for (int k = 1; k < len - 1; k++) {
             if (dHist[k - 1] < dHist[k] && dHist[k + 1] < dHist[k]) {
                 modes++;
-                if (modes > 2) {
+                if (modes > 1) {
                     return false;
                 }
             }
